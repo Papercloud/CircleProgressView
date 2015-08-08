@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "CircleProgressView"
-  s.version      = "0.9.5"
+  s.version      = "0.9.8"
   s.summary      = "Circular progress made in in swift."
 
   s.description  = <<-DESC
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/bphenriques/CircleProgressView.git", :tag => "0.9.5" }
+  s.source       = { :git => "https://github.com/bphenriques/CircleProgressView.git", :tag => "0.9.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
