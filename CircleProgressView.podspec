@@ -6,20 +6,19 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "CircleProgressView"
-  s.version      = "1.0.0"
+  s.version      = "0.9.5"
   s.summary      = "Circular progress made in in swift."
 
   s.description  = <<-DESC
                    Circular progress view made in swift. Is easly customizable withing the storyboard
                    DESC
 
-  s.homepage     = "http://EXAMPLE/CircleProgressView"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/bphenriques/CircleProgressView"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.license      = { :type => "MIT", :file => "LICENCE" }
+  s.license      = { :type => "MIT", :file => "LICENCE.md" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -36,7 +35,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files = "CircleProgressView/**/*.{swift}"
+  s.source_files = "CircularProgressView/**/*.{swift}"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
