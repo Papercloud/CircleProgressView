@@ -8,18 +8,18 @@
 
 import UIKit
 
-@IBDesignable class CircleProgressView: UIView {
+@IBDesignable public class CircleProgressView: UIView {
     
-    @IBInspectable var circleColor: UIColor = UIColor(hex: 0xE3C79B)
-    @IBInspectable var progressColor: UIColor = UIColor(hex: 0xE46D71)
-    @IBInspectable var clockWise: Bool = true
-    @IBInspectable var lineWidth: CGFloat = 4.0 {
+    @IBInspectable public var circleColor: UIColor = UIColor(hex: 0xE3C79B)
+    @IBInspectable public var progressColor: UIColor = UIColor(hex: 0xE46D71)
+    @IBInspectable public var clockWise: Bool = true
+    @IBInspectable public var lineWidth: CGFloat = 4.0 {
         didSet {
             backgroundCircle.lineWidth = lineWidth
             self.progressCircle.lineWidth = lineWidth + 0.1
         }
     }
-    @IBInspectable var valueProgress: Float = 0 {
+    @IBInspectable public var valueProgress: Float = 0 {
         didSet {
             self.progressCircle.strokeEnd = CGFloat(valueProgress) / 100
         }
