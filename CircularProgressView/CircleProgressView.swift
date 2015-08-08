@@ -34,11 +34,11 @@ import UIKit
         self.backgroundColor = UIColor.clearColor()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    override func drawRect(rect: CGRect) {
+    public override func drawRect(rect: CGRect) {
         // Create path
         let centerPointArc = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2)
         let radiusArc: CGFloat = self.frame.width / 2 * 0.8
