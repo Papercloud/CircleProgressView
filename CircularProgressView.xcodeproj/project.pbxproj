@@ -8,27 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		202767661B76058800F135E5 /* CircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 202767651B76058800F135E5 /* CircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2027676C1B76058800F135E5 /* CircularProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202767601B76058800F135E5 /* CircularProgressView.framework */; };
-		202767731B76058800F135E5 /* CircularProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202767721B76058800F135E5 /* CircularProgressViewTests.swift */; };
 		2027677D1B7605A100F135E5 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027677C1B7605A100F135E5 /* CircleProgressView.swift */; };
 		2027677F1B7605D500F135E5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027677E1B7605D500F135E5 /* UIColor.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2027676D1B76058800F135E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 202767571B76058800F135E5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2027675F1B76058800F135E5;
-			remoteInfo = CircularProgressView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		202767601B76058800F135E5 /* CircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		202767641B76058800F135E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		202767651B76058800F135E5 /* CircularProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
-		2027676B1B76058800F135E5 /* CircularProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		202767711B76058800F135E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		202767721B76058800F135E5 /* CircularProgressViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressViewTests.swift; sourceTree = "<group>"; };
 		2027677C1B7605A100F135E5 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
@@ -40,14 +27,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		202767681B76058800F135E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2027676C1B76058800F135E5 /* CircularProgressView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				202767601B76058800F135E5 /* CircularProgressView.framework */,
-				2027676B1B76058800F135E5 /* CircularProgressViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,24 +118,6 @@
 			productReference = 202767601B76058800F135E5 /* CircularProgressView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2027676A1B76058800F135E5 /* CircularProgressViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 202767791B76058800F135E5 /* Build configuration list for PBXNativeTarget "CircularProgressViewTests" */;
-			buildPhases = (
-				202767671B76058800F135E5 /* Sources */,
-				202767681B76058800F135E5 /* Frameworks */,
-				202767691B76058800F135E5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2027676E1B76058800F135E5 /* PBXTargetDependency */,
-			);
-			name = CircularProgressViewTests;
-			productName = CircularProgressViewTests;
-			productReference = 2027676B1B76058800F135E5 /* CircularProgressViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,9 +130,6 @@
 				ORGANIZATIONNAME = "Bruno Henriques";
 				TargetAttributes = {
 					2027675F1B76058800F135E5 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					2027676A1B76058800F135E5 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -190,20 +147,12 @@
 			projectRoot = "";
 			targets = (
 				2027675F1B76058800F135E5 /* CircularProgressView */,
-				2027676A1B76058800F135E5 /* CircularProgressViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2027675E1B76058800F135E5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		202767691B76058800F135E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,23 +171,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		202767671B76058800F135E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				202767731B76058800F135E5 /* CircularProgressViewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2027676E1B76058800F135E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2027675F1B76058800F135E5 /* CircularProgressView */;
-			targetProxy = 2027676D1B76058800F135E5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		202767741B76058800F135E5 /* Debug */ = {
@@ -366,38 +299,6 @@
 			};
 			name = Release;
 		};
-		2027677A1B76058800F135E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CircularProgressViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bruno.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2027677B1B76058800F135E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CircularProgressViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "bruno.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,15 +316,6 @@
 			buildConfigurations = (
 				202767771B76058800F135E5 /* Debug */,
 				202767781B76058800F135E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		202767791B76058800F135E5 /* Build configuration list for PBXNativeTarget "CircularProgressViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2027677A1B76058800F135E5 /* Debug */,
-				2027677B1B76058800F135E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
