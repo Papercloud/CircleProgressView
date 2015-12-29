@@ -34,7 +34,7 @@ import UIKit
         self.backgroundColor = UIColor.clearColor()
     }
     
-    public required init(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -42,7 +42,7 @@ import UIKit
         // Create path
         let centerPointArc = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2)
         let radiusArc: CGFloat = self.frame.width / 2 * 0.8
-        var circlePath = UIBezierPath(arcCenter: centerPointArc, radius: radiusArc, startAngle: radial_angle(0), endAngle: radial_angle(360), clockwise: clockWise)
+        let circlePath = UIBezierPath(arcCenter: centerPointArc, radius: radiusArc, startAngle: radial_angle(0), endAngle: radial_angle(360), clockwise: clockWise)
         
         // Define background circle still to be loaded
         backgroundCircle.path = circlePath.CGPath

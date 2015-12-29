@@ -164,6 +164,8 @@
 		202767571B76058800F135E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Bruno Henriques";
 				TargetAttributes = {
@@ -410,6 +412,7 @@
 				202767781B76058800F135E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		202767791B76058800F135E5 /* Build configuration list for PBXNativeTarget "CircularProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +421,7 @@
 				2027677B1B76058800F135E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
