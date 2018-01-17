@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SimpleCircleProgressView"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "Circle progress view made in swift."
 
   s.description  = <<-DESC
